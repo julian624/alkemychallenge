@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Button from '@material-ui/core/button'
+// import Button from '@material-ui/core/button'
 // import heroesfaces from '../images/heroes-faces.PNG';
 // import '../styles/Login.css';
 
@@ -63,9 +63,9 @@ function Login({ setIsAuth }) {
       </div>
       <div className='field py-3'>
         <p className='control'>
-          <Button variant="contained" color="primary" type='submit' className='button is-link is-fullwidth'>
+          <button variant="contained" color="primary" type='submit' className='button is-link is-fullwidth'>
             Login
-          </Button>
+          </button>
         </p>
       </div>
       </form>
