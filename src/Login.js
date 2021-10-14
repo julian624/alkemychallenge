@@ -63,7 +63,7 @@ function Login({ setIsAuth }) {
       </div>
       <div className='field py-3'>
         <p className='control'>
-          <button variant="contained" color="primary" type='submit' className='button is-link is-fullwidth'>
+          <button variant="contained" color="primary" type='submit' className='ButonLogin'>
             Login
           </button>
         </p>

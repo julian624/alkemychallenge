@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Login from './Login'
 import Home from './Home'
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// NUEVOS
+
 import Spinner from './Spinner'
-import { BrowserRouter as Router, Route,Link,Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   const [searchText, setSearchText] = useState('');

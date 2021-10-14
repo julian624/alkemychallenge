@@ -1,38 +1,35 @@
-html{
-  background-color: rgba(0, 0, 0, 0.205);
-}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #ce1b1b;
-  width:100vw;
+  width: 100vw;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 .navbar {
-  width:100vw;
-  margin-top:-2px;
+  width: 100vw;
+  margin-top: -2px;
   height: 70px;
   border: 1px solid #e6e6e6;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 16px;
-  background:rgb(53, 53, 153);
+  background: rgb(53, 53, 153);
 }
 #logo {
   font-size: 30px;
   font-weight: 800;
 }
 .main {
-  width:33%;
+  width: 33%;
   /* margin: 0 auto; */
   margin: 10px;
   margin-top: 20px;
@@ -45,15 +42,15 @@ code {
   margin-bottom: 50px;
 }
 .search-result {
-  height:400px;
+  height: 400px;
   width: 100vw;
   display: flex;
-  background-color:rgba(0, 0, 0, 0.137);
+  background-color: rgba(0, 0, 0, 0.137);
   box-sizing: border-box;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .search-result .left img {
-  height: 200px
+  height: 200px;
 }
 .search-result .right {
   padding-left: 30px;
@@ -64,107 +61,100 @@ code {
 .stats div {
   font-size: 20px;
 }
-.search-result1{
+.search-result1 {
   display: flex;
-  width:33%;
+  width: 33%;
   /* border: 1px solid #000; */
 }
 
 .search-result2 {
   display: flex;
-  width:50%;
+  width: 50%;
   /* border: 1px solid #000; */
 }
-.Equipototal{
+.Equipototal {
   display: flex;
   margin: 0 auto;
-  color:black;
+  color: black;
   font-size: 1.5rem;
 }
-.Equipoimagen{
-  margin-right:10px;
+.Equipoimagen {
+  margin-right: 10px;
 }
 
-.search-result3{
+.search-result3 {
   margin-left: 100px;
   position: absolute;
-  width:33%;
+  width: 33%;
   right: 0;
-  
- 
 }
 /* ----- BIENVENIDOS SECTION --------- */
 
-
-.butonflex{
-  background-color:red;
+.butonflex {
+  background-color: red;
   height: 35px;
-  color:white;
-  border-radius:15%;
-
+  color: white;
+  border-radius: 15%;
 }
 /* -------CONTAINER PRINCIPAL ---------- */
 
-.ContainerPrincipal{
-  width:100%;
+.ContainerPrincipal {
+  width: 100%;
 }
 
-.butonflex:hover{
-  cursor:pointer;
-  background-color:rgba(243, 26, 26, 0.911);
+.butonflex:hover {
+  cursor: pointer;
+  background-color: rgba(243, 26, 26, 0.911);
   height: 35px;
-  color:white;
-  border-radius:15%;
+  color: white;
+  border-radius: 15%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
 
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
 }
-.navbar{
-  display:flex;
-  justify-content:space-between;
-}
-
-.input{
-width:250px;
-height: 40px;
-border-radius:10px;
-}
-.containerlogin{
-  width:100vw;
+.containerlogin {
+  width: 100vw;
   height: 100vh;
-  display:flex;
+  display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   background-color: rgb(0, 0, 0);
-  color:white;
-
+  color: white;
 }
-.formcontainerp{
+.formcontainerp {
   font-size: 2rem;
 }
 
 /* ---------- RESULTADOS BUSCADOR----- */
-.ContainerResultados{
+.ContainerResultados {
   display: flex;
-  width:100vw;
-  height: 100vh;
-
-}
-.Resultados{
-  width:50%;
+  width: 100vw;
   height: 100vh;
 }
-.Equipo{
-  width:50%;
+.Resultados {
+  width: 50%;
   height: 100vh;
-  background-color:rgb(168, 161, 161);
+}
+.Equipo {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(168, 161, 161);
 }
 
 /* ----------EQUIPO TOTAL---- */
-.Equipototal{
-  list-style:none;
+.Equipototal {
+  list-style: none;
 }
-.Equipototal img{
+.Equipototal img {
   height: 40px;
-  width:40px;
+  width: 40px;
 }
 /* .Equipoul li {
   background : pink;
@@ -186,51 +176,57 @@ padding : 0;
   height:100px;
 }
  */
- .titulos{
-   color:white;
-   width:100vw;
-   height: 50px;
-  display:flex;
+.titulos {
+  color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(53, 53, 153, 0.787);
   /* margin-right: 5px; */
+  margin-top: -3rem;
 }
-.titulos h2{
+.titulos h2 {
   margin: 0 auto;
-  color:rgb(24, 23, 23);
+  color: rgb(24, 23, 23);
 }
 
-#searchbar{
-  width:100%;
+#searchbar {
+  width: 100%;
 }
 
-
-.BotonesHeroe{
-  display:flex;
-  
+.BotonesHeroe {
+  display: flex;
 }
-.BotonesHeroe button{
+.BotonesHeroe button {
   margin-right: 10px;
 }
-.Home{
-  z-index:10;
-  position:absolute;
+.Home {
+  z-index: 10;
+  position: absolute;
   overflow: hidden;
 }
 
-.Searchresultoriginal{
-  opacity:1;
+.Searchresultoriginal {
+  opacity: 1;
   height: 100px;
 }
-.Searchresultoriginal::first-of-type{
-  opacity:0;
+.Searchresultoriginal::first-of-type {
+  opacity: 0;
 }
-.ContainerResultados{
-  height:300px;
-  overflow:hidden;
+.ContainerResultados {
+  height: 300px;
+  overflow: hidden;
 }
-.search-result{
-  height:500px;
-  overflow:hidden;
+.search-result {
+  height: 500px;
+  overflow: hidden;
+}
+.ButonLogin {
+  height: 30px;
+  width: 255px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: black;
 }
